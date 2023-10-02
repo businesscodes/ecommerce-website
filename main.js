@@ -6,7 +6,7 @@ function initMap() {
     var map = new google.maps.Map(
         document.getElementById('map'), { zoom: 20, center: russia });
     // The marker, positioned at Uluru
-    var marker = new google.map.Marker({ position: russia, map: map });
+    var marker = new google.maps.Marker({ position: russia, map: map });
 }
 
 
